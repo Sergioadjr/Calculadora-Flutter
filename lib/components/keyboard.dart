@@ -41,7 +41,7 @@ class Keyboard extends StatelessWidget {
         SizedBox(height: 1.5),
         BotaoNaLinha([
           Botao.grande(text: '0', retorno:retorno),
-          Botao(text: ',', retorno:retorno),
+          Botao(text: '.', retorno:retorno),
           Botao.operacao(text: '=', retorno:retorno),
         ]),
       ]),
